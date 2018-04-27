@@ -10,14 +10,15 @@ import SpriteKit
 
 class SnakeGameScene: SKScene {
     
-    var currentDirection: SnakeDirection = .right
-    var snakeBody: [SKSpriteNode] = [.snakeBodyPart]
+    // var currentDirection = 
+    var snakeBody: [SKSpriteNode] = []
     
     override func sceneDidLoad() {
         super.sceneDidLoad()
         prepareScene()
         
     }
+    
 }
 
 extension SnakeGameScene {

@@ -13,12 +13,12 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
-class ViewController: NSViewController {
+class ViewController: UIViewController {
     
     @IBOutlet var skView: SKView!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        viewDidLoad()
         
         if let view = self.skView {
             // Load the scenes from GameScene.sks

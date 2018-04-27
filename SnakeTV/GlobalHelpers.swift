@@ -10,9 +10,9 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
-class ViewController: NSViewController {
+class GameViewController: ViewController {
     
-    @IBOutlet var skView: SKView!
+    @IBOutlet var SKView: SKView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
